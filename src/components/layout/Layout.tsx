@@ -48,7 +48,8 @@ const NavBar: React.FC = () => {
       <NavLink path="/discover" label="Discover" />
       <Space w="md" />
       <NavLink path="/compare" label="Compare" />
-
+      <Space w="md" />
+      <NavLink path="/dashboard" label="Dashboard" />
       <Space flex={1} />
 
       <ViewModeControl />
